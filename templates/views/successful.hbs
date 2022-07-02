@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+<div class="full-page">
+    <div class="navbar">
+         <div>
+            <a href="#">MERN</a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="/">Home</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </div>     
+    <div class="successful-form" style="color:white;width:400px">
+       <h1 >Congratulations! you have succesfully login.<br> Token Id : {{token}}</h1>
+    </div>
+</div>
+</body>
+</html>
